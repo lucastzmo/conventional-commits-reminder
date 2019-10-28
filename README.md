@@ -1,10 +1,14 @@
 # Conventional Commits Reminder
 
-Tipos:
+#### Tipos:
 
 *feat* - Um novo recurso
 
+Quando usado: [ X.1.X - Minor] no CHANGELOG.
+
 *fix* - Correção de bug
+
+Quando usado: fix [ X.X.1 - Patch] no CHANGELOG.
 
 *refactor* - Uma alteração de código que não corrige um bug nem adiciona um recurso
 
@@ -24,9 +28,20 @@ Tipos:
 
 *revert* - Reverte uma confirmação anterior
 
+Quando usados: [X.X.X - N/A] no CHANGELOG.
+
 ---
 
-Padrão:
+#### BREAKING CHANGE
+
+Deve ser indicado no início da seção do rodapé ou do corpo de um commit e consiste no texto em maiúsculas *BREAKING CHANGE*, seguido por dois pontos e um espaço.
+Ele aumenta a versão do projeto correlacionada a uma versão MAJOR semântica.
+
+Quando usado: [1.XX - Maior] no CHANGELOG.
+
+---
+
+#### Padrão:
 
 ```
 <tipo> [escopo opcional]: <descrição> 
@@ -34,7 +49,7 @@ Padrão:
 [rodapé opcional]
 ```
 
-Exemplo real:
+#### Exemplo real:
 ```
 git commit -m "feat (página inicial): adicione rodapé alternativo à página inicial
 
