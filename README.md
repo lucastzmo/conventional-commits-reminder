@@ -58,3 +58,14 @@ Implemente a versão alternativa do rodapé
 Adicione ícones alternativos na versão móvel do rodapé 
 Corrige o problema nº 3"
 ```
+---
+
+#### Links
+
+[conventional-changelog](https://github.com/conventional-changelog/standard-version)
+
+[husky](https://github.com/typicode/husky)
+
+[commitizen/cz-cli](https://github.com/commitizen/cz-cli)
+
+[commitlint](https://commitlint.js.org/#/)
